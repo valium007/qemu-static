@@ -1,4 +1,4 @@
-FROM alpine:3.20.0
+FROM multiarch/alpine:aarch64-edge
 
 RUN apk update
 RUN apk upgrade

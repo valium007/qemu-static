@@ -11,4 +11,6 @@ RUN "/work/src/${QEMU_SRC_BASENAME}/configure" \
     --disable-system \
     --disable-werror \
     --enable-linux-user \
-    --static
+    --static \
+    --target-list=x86_64-linux-user \
+    --disable-tpm

@@ -16,7 +16,9 @@ RUN apk add\
  glib-dev glib-static\
  zlib-dev zlib-static\
  flex\
- bison
+ bison\
+ patch\
+ bash
 
 # additional
 RUN apk add bash xz git patch
